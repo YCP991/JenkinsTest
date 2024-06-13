@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/JenkinsTest")
     String Test(){
-        return "test2";
+        return "test1";
     }
 
 }
